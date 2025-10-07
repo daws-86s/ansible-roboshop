@@ -76,7 +76,7 @@
 
   - name: start and enable cataalogue
     ansible.builtin.service:
-      name: cataalogue
+      name: catalogue
       enabled: yes
       state: started
   
