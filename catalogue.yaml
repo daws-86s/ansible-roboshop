@@ -62,6 +62,7 @@
 
   - name: evaluate cataalogue database
     community.mongodb.mongodb_shell:
+      login_host: mongodb.daws86s.fun
       eval: db.getMongo().getDBNames().indexOf('catalogue')
     register: catalogue_output
 
